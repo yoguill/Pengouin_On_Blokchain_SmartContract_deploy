@@ -1,7 +1,9 @@
 # Pengouin On Blockchain
 This Project is a project Created by me : 
 Its an NFT project using firebase on deploy
+
 Opensea collection : https://opensea.io/collection/pengouinonblockchain
+
 Mint Site : https://penguin-on-blockchain.web.app/
 
 I use for this Project Hardhat, react.js, solidity.
@@ -22,9 +24,10 @@ GAS_REPORT=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
-Voici le contrat sur le reseau Polygon TestNet :0x9e6C3262722F087A5B43dA8353a515347D05c30c
-Voici le contrat sur le reseau Polygon Mainet : 0x6eE274b6CdA33eD7dD0979FeE2abb522b3988dCf
+Polygon Testnet Contract: 0x9e6C3262722F087A5B43dA8353a515347D05c30c
 
-Pour la partie Whitelist : 
+Polygon Mainet Contract : 0x6eE274b6CdA33eD7dD0979FeE2abb522b3988dCf
+
+For merkleTree : 
 root : 0x5c994ee14b6fe9662bb01f57c2604635110fd41182c1b7b298d61e3138d6b99e
 proof : 0x2cd169332ea9c0b43e4c97db7d933b583a3f24f39bedf3e0a0aba31fe478c543,0x2cd169332ea9c0b43e4c97db7d933b583a3f24f39bedf3e0a0aba31fe478c543
