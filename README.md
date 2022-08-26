@@ -1,3 +1,14 @@
+# Pengouin On Blockchain
+This Project is a project Created by me : 
+Its an NFT project using firebase on deploy
+Opensea collection : https://opensea.io/collection/pengouinonblockchain
+Mint Site : https://penguin-on-blockchain.web.app/
+
+I use for this Project Hardhat, react.js, solidity.
+
+All are on licence MIT, you can use this to train ! 
+
+
 # Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
