@@ -18,7 +18,7 @@ const GGaddress = "0x6eE274b6CdA33eD7dD0979FeE2abb522b3988dCf";
 
 function App() {
 
-  const [error, setError] = useState('');
+  const [error, setError] = useState('Erreur');
   const [data, setData] = useState({})
 
   useEffect(() => {
@@ -69,6 +69,7 @@ function App() {
       const signer = provider.getSigner();
       const contract = new ethers.Contract(GGaddress, NftContract.abi, signer);
       try {
+        //ici que ca change sinon on peut juste copier coller et changer la fonction apres contract.
         const transaction = await contract.releaseAll();
         await transaction.wait();
       }
