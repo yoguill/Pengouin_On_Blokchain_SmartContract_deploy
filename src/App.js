@@ -18,7 +18,7 @@ const GGaddress = "0x6eE274b6CdA33eD7dD0979FeE2abb522b3988dCf";
 
 function App() {
 
-  const [error, setError] = useState('Erreur');
+  const [error, setError] = useState('');
   const [data, setData] = useState({})
 
   useEffect(() => {
@@ -113,7 +113,9 @@ function App() {
           <img src={img9} alt="img" />
           <img src={img10} alt="img" />
         </div>
-        {error && <p>{error}</p>}
+        <br/>
+        You need be connected on Polygon Mainet with Metamask
+        {/* {error && <p>{error}</p>} */}
         <h1>Mint a Pingouin NFT To save Biodiversity!</h1>
         <p className="count">{data.totalSupply} / 50</p>
         <p className="cost">Each Pingouin NFT costs {data.publicSalePrice / 10**18} Matic (excluding gas fees)</p>
